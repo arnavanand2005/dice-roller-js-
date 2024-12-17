@@ -1,0 +1,93 @@
+/* Basic reset for the body and overall structure */
+body {
+    font-family: Arial, sans-serif;  /* Sets a clean font for the page */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;  /* Light background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  /* Make the page fill the full height */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the input section */
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#input label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#input input {
+    width: 80px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;  /* Green button */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
+
+button:active {
+    background-color: #3e8e41;  /* Even darker on click */
+}
+
+/* Styling for the dice results section */
+#valueres {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+#imgres {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styling for dice images */
+#imgres img {
+    width: 50px;  /* Adjust image size */
+    height: 50px; /* Adjust image size */
+    margin: 5px;  /* Space between images */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on dice images */
+#imgres img:hover {
+    transform: scale(1.2);  /* Slightly enlarge dice images on hover */
+}
